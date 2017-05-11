@@ -1,0 +1,788 @@
+@import url('reset.css');
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+.clear:after {
+    clear: both;
+}
+.clear{
+    *zoom: 1;
+}
+.pull-left{
+	float: left;
+}
+.pull-right{
+	float: right;
+}
+.inner{
+	margin: 0 auto;
+	width: 1000px;
+  min-width: 1000px;
+}
+/* HEader BEGIN */
+.header-top{
+  background: #2b2b2b;
+  height: 50px;
+  min-width: 1000px;
+}
+
+.header_top_menu{
+  font-size: 0;
+  word-spacing: normal;
+  letter-spacing: normal;
+  height: 50px;
+  min-width: 1000px;
+}
+
+
+.header_top_menu li{
+  display: inline-block;
+  padding-left: 40px;
+  min-width: 70px;
+  height: 100%;
+}
+
+.header_top_menu li:first-child{
+  padding-left: 0;
+}
+
+.header_top_menu li:nth-child(2){
+  text-transform: uppercase;
+}
+
+.header_top_menu li a{
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  font: 16px 'Roboto Condensed', sans-serif;
+  text-decoration: none;
+  line-height: 300%;
+  height: 100%;
+  outline: none;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+
+.header-bot{
+  background: url(../img/header-main-background.jpg) 50% no-repeat;
+  background-size:  cover;
+  height: 450px;
+  min-width: 1000px;
+}
+
+.header-bot > .inner{
+  background: url(../img/main-header-men.png) 45% 100% no-repeat;
+  min-height: 451px;
+}
+
+.logo-header-bot{
+  margin-top: 10px;
+}
+
+.header-list li{
+    font: 20px 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color:#000000;
+    width: 279px;
+    margin:24px 0 0 37px;
+}
+
+.header-list li:before{
+    content:url(../img/header-bullet.png);
+    position: absolute;
+    left: 0px;
+
+}
+
+.header-list-wrapper{
+  position:relative;
+
+}
+
+.wrapper-list{
+  display: inline-block;
+}
+
+.form{
+  float: right;
+}
+.phone{
+  float:right;
+  font: 36px 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+
+}
+.header-form{
+  height: 377px;
+  width: 377px;
+  background: url(../img/bg-form.png);
+}
+.header-form h1{
+  font: 22px 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color:white;
+  padding-top: 53px;
+}
+
+.line{
+  margin-top: -19px;
+}
+
+ .text{
+  height: 40px;
+  width: 260px;
+  font: 16px 'Roboto Condensed', sans-serif;
+  font-weight: lighter;
+  padding: 0 10px;
+}
+
+.text:nth-child(1){
+  margin-bottom: 12px;
+}
+
+.text:nth-child(2){
+  margin-bottom: 16px;
+}
+
+.header-form-button{
+  width: 258px;
+  height: 58px;
+  background: url(../img/header-button.png);
+  border:none;
+}
+
+        /* HEader END */
+
+
+        /* triggers begin*/
+
+.triggers{
+  min-width: 1000px;
+  font: 30px 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  height: 241px;
+  background: url(../img/trigger-bg.jpg) 50%;
+}
+
+.triggers > .inner{
+  text-align: center;
+}
+
+.h{
+  padding-top: 30px;
+  color:white;
+  text-align: center;
+  min-width: 1000px;
+}
+
+
+.gro{
+  font: 18px 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin-right: 80px;
+}
+.gro:last-child{
+ margin-right: 0px;
+}
+
+.gro img{
+  margin: 20px 0;
+}
+
+        /* triggers END */
+
+
+        /* form begin */
+.time{
+  min-width: 1000px;
+  background: #f4f4f4;
+  height:240px;
+  font: 24px 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: #2b2b2b;
+}
+
+.time header{
+  text-align: center;
+  padding: 24px 0;
+}
+
+.timer{
+  height: 86px;
+  background: black;
+  margin: 0 auto;
+  width: 306px;
+}
+
+header span{
+  color: #c52424;
+}
+
+          /* form end */
+          /* price begin */
+.price{
+  min-width: 1000px;
+  height: 369px;
+  text-align: center; 
+  box-shadow: 0 3px 1px #bcbcbc;
+  position: relative;
+  z-index: 2;
+}
+
+.price > .inner{
+ height: 100%;
+}
+
+.price > .inner > div{
+  padding: 0 47px;
+  display: inline-block;
+  text-align: center;
+  font: bold 18px 'Roboto Condensed', sans-serif;
+  color: #85673d;
+}
+
+.price > .inner > div> header{
+  padding: 17px 0 13px 0;
+}
+
+.price-prev{
+  font-weight: normal;
+  color: #2b2b2b;
+  position: relative;
+  margin-top: 5px;
+}
+
+.shape{
+  position: absolute;
+  top: 10px;
+  left: 70px;
+}
+
+.price-thi{
+  font-size: 28px;
+  color:#005172;
+}
+
+.price-end{
+  color:#2b2b2b;
+  font: normal 12px 'Roboto Condensed', sans-serif;
+  padding-bottom: 5px;
+}
+
+          /* price end */
+           /* felds begin */
+
+.fields{
+  min-width: 1000px;
+  font:  16px 'Roboto Condensed', sans-serif;
+  height: 297px;
+  position: relative;
+  text-align: center;
+  background: url(../img/line2.png) 50% 100% no-repeat #f4f4f4;
+}
+
+.fields img{
+  margin: 0 auto;
+  position: absolute;
+ left: 0; 
+ bottom: -15px; 
+ right: 0;
+}
+
+.fields header{
+  text-align: center;
+  padding: 30px 0;
+  font: bold 30px 'Roboto Condensed', sans-serif;
+  color: #2b2b2b;
+}
+
+.fields header span{
+  color:#c52424;
+}
+
+.field{
+  height: 36px;
+  width: 240px;
+  padding: 0 10px;
+  margin-left: 81px;
+  overflow: hidden;
+  font-size:16px;
+}
+
+.mw{
+  min-width: 1000px;
+}
+
+.field:first-child{
+  margin-left: 0px;
+}
+
+.fields-wrapper{
+  min-width: 1000px;
+  padding-top: 20px;
+}
+
+.fields-wrapper select{
+  margin: 10px 40px 0 10px; 
+}
+
+.chec{
+  height: 36px;
+  width: 240px;
+  padding: 0 10px;
+}
+
+.chec:last-child{
+  margin-right: 0px; 
+}
+
+.check{
+  text-align: left;
+  width: 350px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+            /* felds end */
+
+
+
+            /* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+[type="checkbox"]:not(:checked) + label.docs-check,
+[type="checkbox"]:checked + label.docs-check {
+  position: absolute;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; top: 2px;
+  width: 15px; height: 15px;
+  border: 1px solid #a3a3a3;
+  background: #f8f8f8;
+
+
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: url(../img/Checking.png);
+  position: absolute;
+  top: 2px; left: 4px;
+  font-size: 18px;
+  line-height: 0.8;
+  color: #2c96c2;
+  transition: all .2s;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+[type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+[type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  border: 1px dotted blue;
+}
+
+/* hover style just for information */
+label:hover:before {
+  border: 1px solid #4778d9!important;
+}
+
+
+
+
+
+
+/* Useless styles, just for demo design */
+
+
+
+.bh {
+  width: 80px;
+  margin: 0 auto;
+  float:right;
+}
+.txtcenter {
+  margin-top: 4em;
+  font-size: .9em;
+  text-align: center;
+  color: #aaa;
+}
+
+.s1{
+  float: right;
+}
+
+
+    /* DOCS begin */
+
+
+.docs{
+  height: 486px;
+  background: url(../img/line2.png) 50% 100% no-repeat;
+}
+
+.docs header{
+  text-align: center;
+  font: bold 24px 'Roboto Condensed', sans-serif;
+  padding: 20px 0; 
+
+}
+
+.groups{
+  min-width: 1000px;
+  text-align: center;
+
+}
+
+.group{
+  font: bold 16px 'Roboto Condensed', sans-serif;
+  line-height: 27px;
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: center;
+  color: black;
+  min-width: 150px;
+  position: relative;
+  margin-right: 70px;
+  margin-bottom: 10px;
+}
+
+.group2{
+  font: bold 16px 'Roboto Condensed', sans-serif;
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: center;
+  color: black;
+  min-width: 150px;
+  position: relative;
+  margin-right: 40px;
+}
+.gap{
+  height: 20px;
+}
+.group:last-child{
+  margin-right: 0px;
+}
+
+.group img{
+  margin: 0px;
+}
+
+.group div{
+  position: relative;
+}
+
+.docs-check{
+  position: absolute;
+  bottom: 23px;
+  right: -20px;
+}
+
+.docs-button{
+  text-align: center;
+  padding-top: 15px;
+}
+      /* DOCS end */
+
+
+
+
+
+      /* problev begin */
+
+
+.problem{
+  height: 471px;
+  background: url(../img/line2.png) 50% 100% no-repeat #f4f4f4;
+  font: bold 30px 'Roboto Condensed', sans-serif;
+  min-width: 1000px;
+}
+
+.problem header{
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+}
+.problem header span{
+color:#85673d;
+
+}
+
+.problem ul {
+  text-align: center;
+  min-width: 1000px;
+}
+
+.problem ul li{
+  font-size: 16px;
+  padding-top: 10px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 110px;
+  width: 200px;
+}
+
+.problem ul li:nth-child(4n-1){
+
+  padding-right: 0px;
+}
+      /* problev end */
+
+
+      /* profit begin */
+
+.profit{
+  height: 294px;
+  background: #f4f4f4;
+  font:  bold 30px 'Roboto Condensed', sans-serif;
+  min-width: 1000px;
+}
+
+.profit header{
+  padding-top: 25px;
+  padding-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.profit header span{
+  color:#85673d;
+}
+
+.profit ul{
+  text-align: center;
+}
+
+.profit ul li{
+  vertical-align: top;
+  display: inline-block;
+  font-size: 16px;
+  min-width: 150px;
+}
+
+
+
+
+
+
+      /* profit end */
+
+
+      /* steps begin */
+
+.steps{
+  height: 244px;
+  background: url(../img/steps-bg.png);
+  font:  bold 30px 'Roboto Condensed', sans-serif;
+  min-width: 1000px;
+}
+
+.steps header{
+  color: #fff;
+  text-align: center;
+  padding-top: 24px;
+}
+
+.steps ul{
+  text-align: center;
+  min-width: 1000px;
+  padding-top: 30px;
+}
+
+.steps ul li{
+   color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.steps ul li:nth-child(odd){
+  min-width: 200px;
+}
+
+.steps ul li div{
+  padding-top: 25px;
+}
+      /* steps end */
+
+
+.map{
+  height: 520px;
+  background: url(../img/line2.png) 50% 100% no-repeat #f4f4f4;
+  font:  bold 30px 'Roboto Condensed', sans-serif;
+  min-width: 1000px;
+  text-align: center;
+}
+
+.map header{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.map header span{
+  color:#85673d;
+}
+
+.map img{
+  display: inline-block;
+}
+
+
+     /* rev begin */
+
+
+.rev{
+  text-align: center;
+  background: url(../img/line2.png) 50% 100% no-repeat;
+  font:  bold 30px 'Roboto Condensed', sans-serif;
+  height: 342px;
+  min-width: 1000px;
+}
+
+.rev header{
+  color:#85673d;
+    padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.rev ul{
+  text-align: center;
+}
+
+.rev ul li{
+  display: inline-block;
+  margin: 0 38px;
+}
+
+
+
+
+          /* rev end */
+
+
+
+     /* rev begin */
+
+.ras{
+  height: 242px;
+  min-width: 1000px;
+  font:  bold 30px 'Roboto Condensed', sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.ras header{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.ras header span{
+  color:#c52424;
+}
+
+.ras ul{
+  text-align: center;
+}
+
+.ras ul li{
+  display: inline-block;
+  margin:0 15px;
+}
+
+.ras a img{
+  margin-top: 25px;
+}
+
+     /* ras end */
+
+.end{
+  text-align: center;
+    background: #2b2b2b;
+}
+
+.end-w{
+  display: inline-block;
+  height: 120px;
+  min-width: 1000px;
+  width:1000px;
+  text-align: left;
+}
+
+.end-right{
+    display: inline-block;
+    width: 400px;
+    padding-top: 15px;
+    font: 18px 'Roboto Condensed', sans-serif;
+    color: #fff;
+    text-align: left;
+    line-height: 35px;
+}
+
+.right{
+  font: bold 32px 'Roboto Condensed', sans-serif;
+  color: #fff;
+  float:right;
+  padding-top: 20px;
+  position: relative;
+} 
+
+
+.right:before{
+  content: url(../img/end-ph.png);
+  position: absolute;
+  left: -40px;
+  top: 20px;
+}
+
